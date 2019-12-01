@@ -1,0 +1,169 @@
+/* Global styling */
+h1, h2, h3, h4, h5, h6, p, a, table{
+    color: #606060!important
+}
+
+a:hover {
+    text-decoration: none
+}
+
+button:focus {
+    outline: none
+}
+
+.row-top {
+    margin-top: 50px
+}
+
+.row-bottom {
+    margin-bottom: 50px
+}
+
+.login-top {
+    margin-top: 150px
+}
+
+.text-orange {
+    color: #ff5722!important
+}
+
+.btn-orange {
+    background-color: #ff5722;
+    border-color: #db491c;
+    color: #fff
+}
+
+.btn-orange:hover {
+    background-color: #cc441b;
+    color: #fff
+}
+
+.btn-quantity {
+    border: 1px solid #28a745;
+    color: #28a745;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    border-radius: 50%
+}
+
+.input-quantity {
+    display: inline-block;
+    width: 50px
+}
+
+/* Header styling */
+.navbar {
+    -moz-box-shadow: 0px -7px 8px 8px #999;
+    box-shadow: 0px -7px 8px 8px #999
+}
+
+.navbar-sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 1
+}
+
+.navbar-brand {
+    color: #28a745!important;
+    font-weight: bold;
+    font-size: 25px!important;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.navbar-dropdown {
+    padding-right: 0px!important
+}
+
+.text-light-dark {
+    color: #606060!important
+}
+
+.navbar .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #dcdcdc
+}
+
+.input-search {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+@media (min-width: 1200px){
+    .input-search {
+        width: 58%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .input-search {
+        width: 38%;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-brand {
+        display: none
+    }
+    
+    .input-search {
+        width: 65%;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+}
+
+/* Home */
+.carousel-item > img { 
+    width: 100%; 
+}
+
+/* Search results styling */
+@media (max-width: 767px){
+    .filter-position {
+        margin-bottom: 30px
+    }
+}
+
+.word-break {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.card-decoration {
+    box-shadow: 0;
+    transition: box-shadow 0.3s;
+    border: 0;
+}
+
+.card-decoration:hover {
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+}
+
+.list-padding {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.row-list {
+   margin-left: -10px;
+   margin-right: -10px; 
+}
+
+/* Product detail styling */
+.qty-input {
+    padding-right: 0px;
+    max-width: 17%;
+}
+
+.product-data {
+    padding-left: 45px;
+}
